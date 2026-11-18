@@ -1,0 +1,31 @@
+# ---- Secrets and local data (never commit) ----
+.env
+.env.*
+!.env.example
+data/
+*.log
+
+# ---- Editors and OS ----
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ---- Build output ----
+Backend/silentecho-backend/target/
+Backend/silentecho-backend/HELP.md
+node_modules/
+
+# Local backups and duplicate redesign package
+frontend_backup_*/
+frontend/SilentEcho_Redesigned_Frontend/
+
+# Generated dependencies and build files
+**/node_modules/
+**/target/
+
+# Local database exports
+*.sql
+
+!db/**/*.sql

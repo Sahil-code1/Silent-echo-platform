@@ -1,0 +1,26 @@
+{
+  "name": "silentecho-frontend-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend checks for SilentEcho: static route and DOM checks, jsdom functional tests, and a real-browser responsive layout check.",
+  "scripts": {
+    "hooks": "node check-css-hooks.js",
+    "routes": "node check-api-routes.js",
+    "dom": "node check-dom-ids.js",
+    "smoke": "node smoke-test.js",
+    "responsive": "node responsive-check.js",
+    "test": "node check-css-hooks.js && node check-dom-ids.js && node smoke-test.js",
+    "serve": "node serve-mock.js 5500"
+  },
+  "devDependencies": {
+    "bootstrap": "5.3.3",
+    "jsdom": "24.1.3",
+    "puppeteer-core": "23.11.1"
+  },
+  "optionalDependencies": {
+    "@sparticuz/chromium": "131.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="referrer" content="no-referrer">
+<title>SilentEcho — Your Voice. Our Priority.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/config.js"></script>
+</head>
+<body>
+<div id="app">
+
+  <header class="site-header" data-public-chrome>
+    <div class="container">
+      <a class="brand" href="#landing" aria-label="SilentEcho home"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 20a3 3 0 0 0 6 0" stroke="#fff" stroke-width="1.7"/></svg></span><span>SilentEcho</span></a>
+      <nav class="navlinks" id="site-nav" aria-label="Main">
+        <a href="#landing" data-nav="landing">Home</a>
+        <a href="#how" data-nav="how">How It Works</a>
+        <a href="#about" data-nav="about">About &amp; Privacy</a>
+        <a href="#resources" data-nav="resources">Resources</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-primary btn-sm" type="button" id="btn-nav-login">Login</button>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span class="bars"></span></button>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ===================== LANDING ===================== -->
+  <section class="screen active" id="screen-landing">
+    <div class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow-tag">Confidential reporting, always</span>
+            <h1>Your Voice.<span class="accent">Our Priority.</span></h1>
+            <p class="lede">SilentEcho is a safe, confidential platform to report concerns and get support. Built for people who need to be heard without fear.</p>
+            <ul class="feature-check-list">
+              <li><span class="dot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Confidential &amp; secure</li>
+              <li><span class="dot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Pseudonymous reporting</li>
+              <li><span class="dot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Optional AI-assisted triage</li>
+              <li><span class="dot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Human care, always</li>
+            </ul>
+            <div class="hero-cta">
+              <button class="btn btn-light" type="button" id="btn-report-now">Report Now</button>
+              <a class="btn btn-ghost-dark" href="#how">Learn More</a>
+            </div>
+            <p class="hero-note">No name, email or phone number is needed. Pseudonymous is not the same as anonymous. <a href="#about">Read what that means</a>.</p>
+          </div>
+          <div class="hero-art">
+            <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+                  <stop offset="0%" stop-color="#3a2a68"/>
+                  <stop offset="100%" stop-color="#0d0d18" stop-opacity="0"/>
+                </radialGradient>
+                <linearGradient id="shieldGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#9b6dff"/>
+                  <stop offset="100%" stop-color="#5b32c4"/>
+                </linearGradient>
+              </defs>
+              <circle cx="210" cy="200" r="190" fill="url(#glow)"/>
+              <path d="M300 90 L390 125 V225 C390 300 350 345 300 375 C250 345 210 300 210 225 V125 Z" fill="url(#shieldGrad)" opacity="0.92"/>
+              <rect x="270" y="215" width="60" height="48" rx="8" fill="#0d0d18"/>
+              <path d="M282 215 v-16 a18 18 0 0 1 36 0 v16" fill="none" stroke="#0d0d18" stroke-width="8"/>
+              <circle cx="300" cy="238" r="5" fill="#9b6dff"/>
+              <!-- person -->
+              <g transform="translate(30,120)">
+                <ellipse cx="110" cy="270" rx="95" ry="14" fill="#000" opacity="0.15"/>
+                <path d="M40 260 C40 190 60 150 110 150 C160 150 180 190 180 260 Z" fill="#7c4fe0"/>
+                <circle cx="110" cy="110" r="42" fill="#2b2440"/>
+                <path d="M70 100 C70 60 150 60 150 100 C150 70 70 70 70 100" fill="#1a1730"/>
+                <path d="M60 250 L60 180 C60 165 75 155 90 160 L90 245 Z" fill="#5b32c4"/>
+                <path d="M160 250 L160 180 C160 165 145 155 130 160 L130 245 Z" fill="#5b32c4"/>
+              </g>
+              <path d="M120 90 l6 14 14 6-14 6-6 14-6-14-14-6 14-6z" fill="#c9b6ff"/>
+              <path d="M320 60 l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#c9b6ff"/>
+            </svg>
+          </div>
+        </div>
+        <div class="trust-strip">
+                  <div class="trust-item">
+                    <span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 5 3.5 9.5 8 11 4.5-1.5 8-6 8-11V5l-8-3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+                    <div><h4>Confidential</h4><p>No name, email or phone number is needed. Your account is pseudonymous.</p></div>
+                  </div>
+                  <div class="trust-item">
+                    <span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 11V8a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="1.6"/></svg></span>
+                    <div><h4>Secure</h4><p>Content is encrypted on the server with AES-256-GCM. Access is limited to the case owner and the organisation.</p></div>
+                  </div>
+                  <div class="trust-item">
+                    <span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3.5" stroke="currentColor" stroke-width="1.6"/><path d="M2.5 20c0-3.5 3-6 6.5-6s6.5 2.5 6.5 6" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="9" r="2.6" stroke="currentColor" stroke-width="1.6"/><path d="M15.5 14c2.6.3 4.5 2.3 5 5.6" stroke="currentColor" stroke-width="1.6"/></svg></span>
+                    <div><h4>Supportive</h4><p>Message your organisation's response team through a private case conversation.</p></div>
+                  </div>
+                  <div class="trust-item">
+                    <span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.6"/></svg></span>
+                    <div><h4>Accountable</h4><p>Every change to a case, including status and notes, is recorded in its timeline.</p></div>
+                  </div>
+                </div>
+
+      </div>
+    </div>
+
+    <section class="section" aria-labelledby="flow-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">How it works</span>
+          <h2 id="flow-title">From a concern to a conversation in four steps</h2>
+          <p>Your account is pseudonymous. An organisation's response team handles your case, and you follow it from your dashboard.</p>
+        </div>
+        <ol class="flow">
+          <li class="flow-card">
+            <span class="flow-num">1</span>
+            <h3>Create an account</h3>
+            <p>No name, email or phone number. The server generates a private sign-in ID for you.</p>
+            <div class="mini"><strong>Illustration</strong>Sign-in ID shown once</div>
+          </li>
+          <li class="flow-card">
+            <span class="flow-num">2</span>
+            <h3>Save your sign-in ID</h3>
+            <p>Copy or download it. Without it you cannot sign back in after your session ends.</p>
+            <div class="mini"><strong>Illustration</strong>Copy &middot; Download &middot; Confirm</div>
+          </li>
+          <li class="flow-card">
+            <span class="flow-num">3</span>
+            <h3>Submit a concern</h3>
+            <p>Choose an organisation, a category and an urgency level. Add optional evidence.</p>
+            <div class="mini"><strong>Illustration</strong>Category &middot; Urgency &middot; PDF, JPG, PNG or TXT</div>
+          </li>
+          <li class="flow-card">
+            <span class="flow-num">4</span>
+            <h3>Track and talk</h3>
+            <p>Follow every change to your case, and message the response team inside it.</p>
+            <div class="mini"><strong>Illustration</strong>Submitted &rarr; Under review &rarr; In progress</div>
+          </li>
+        </ol>
+        <p class="mini-caption">The boxes above are illustrations, not real data.</p>
+      </div>
+    </section>
+
+    <section class="section section-tint" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Why SilentEcho</span>
+          <h2 id="features-title">Built for people who speak up, and the teams who respond</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature"><span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 5 3.5 9.5 8 11 4.5-1.5 8-6 8-11V5l-8-3z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Pseudonymous accounts</h3><p>Create an account without giving your name, email address or phone number.</p></article>
+          <article class="feature"><span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="10" rx="2.5" stroke="currentColor" stroke-width="1.7"/><path d="M8 11V8a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span><h3>Encrypted content</h3><p>Complaint text, messages, evidence filenames and files are encrypted on the server with AES-256-GCM.</p></article>
+          <article class="feature"><span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 5h16v11H8l-4 4V5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><h3>Two-way conversation</h3><p>Message the response team inside your case, and receive updates without exposing who you are.</p></article>
+          <article class="feature"><span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 7h10M4 12h7M4 17h12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="18" cy="7" r="2" fill="currentColor"/><circle cx="15" cy="17" r="2" fill="currentColor"/></svg></span><h3>Clear case status</h3><p>Follow five stages: Submitted, Under review, In progress, Resolved and Closed.</p></article>
+          <article class="feature"><span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 16V4M7 9l5-5 5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" stroke="currentColor" stroke-width="1.7"/></svg></span><h3>Checked evidence uploads</h3><p>Add PDF, JPG, PNG or TXT files up to 2 MB. The server checks file contents, not only the name.</p></article>
+          <article class="feature"><span class="icon-tile"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="5" y="4" width="14" height="17" rx="1.5" stroke="currentColor" stroke-width="1.7"/><path d="M9 8h2M13 8h2M9 12h2M13 12h2M10 21v-4h4v4" stroke="currentColor" stroke-width="1.7"/></svg></span><h3>Organisation workspaces</h3><p>Responders see only the cases of their own organisations. Each status, urgency or category change and action note is recorded in the timeline.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="trust-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Privacy and trust</span>
+          <h2 id="trust-title">What we protect, and what we cannot promise</h2>
+          <p>We would rather you understand the limits before you rely on them.</p>
+        </div>
+        <div class="trust-split">
+          <article class="trust-card">
+            <h3><span class="ti"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>What we protect</h3>
+            <ul class="plain-list">
+              <li>Sign-in IDs are stored only as keyed digests, never as readable text.</li>
+              <li>Content and evidence are encrypted on the server before they are stored.</li>
+              <li>Cases are visible only to the reporter who filed them and the organisation that owns them.</li>
+              <li>Sessions expire after 30 minutes of inactivity and end when you sign out.</li>
+            </ul>
+          </article>
+          <article class="trust-card caution">
+            <h3><span class="ti"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 8v5M12 17h.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M10.3 3.9 2.6 17.2A2 2 0 0 0 4.3 20h15.4a2 2 0 0 0 1.7-2.8L13.7 3.9a2 2 0 0 0-3.4 0z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>What we cannot promise</h3>
+            <ul class="plain-list">
+              <li><strong>This is not end-to-end encrypted.</strong> The operator controls the encryption key.</li>
+              <li><strong>Pseudonymous is not anonymous.</strong> Your writing, dates, places and files can identify you.</li>
+              <li>A lost sign-in ID cannot be recovered.</li>
+              <li>Organisation registration is not independently verified.</li>
+            </ul>
+            <p><a href="#about">Read the full privacy page &rarr;</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <h2>Ready to speak up?</h2>
+            <p>Create a pseudonymous account in about a minute. If someone is in immediate danger, contact your local emergency number first.</p>
+          </div>
+          <div class="cta-row">
+            <button class="btn btn-light" type="button" data-action="report-now">Report Now</button>
+            <a class="btn btn-ghost-dark" href="#resources">Find support</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section class="screen" id="screen-how">
+    <div class="page">
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="#landing">Home</a> / How it works</nav>
+        <header class="page-head">
+          <span class="eyebrow">How it works</span>
+          <h1>From a private account to a supported outcome</h1>
+          <p class="lede">Four steps. You stay in control at each one, and you can stop at any point before you submit.</p>
+        </header>
+        <ol class="journey">
+          <li class="journey-step">
+            <span class="step-num">1</span>
+            <article class="step-card">
+              <h2>Create a pseudonymous account</h2>
+              <p>No name, email address or phone number is requested. The server generates a private sign-in ID with 256 bits of randomness.</p>
+              <small>Takes about a minute.</small>
+            </article>
+          </li>
+          <li class="journey-step">
+            <span class="step-num">2</span>
+            <article class="step-card">
+              <h2>Save your private sign-in ID</h2>
+              <p>It is shown once. Copy it or download it. The server stores only a keyed digest, so it cannot show the ID to you again.</p>
+              <small>Without it you cannot sign back in after your session ends.</small>
+            </article>
+          </li>
+          <li class="journey-step">
+            <span class="step-num">3</span>
+            <article class="step-card">
+              <h2>Submit a concern</h2>
+              <p>Choose an organisation, a category and an urgency level. Add optional evidence: PDF, JPG, PNG or TXT, up to 2 MB. Review everything before you submit.</p>
+              <small>Evidence is checked on the server before it is stored.</small>
+            </article>
+          </li>
+          <li class="journey-step">
+            <span class="step-num">4</span>
+            <article class="step-card">
+              <h2>Track and talk</h2>
+              <p>Your case moves through Submitted, Under review, In progress, Resolved and Closed. Message the response team inside the case.</p>
+              <small>Organisations see your case and messages, not your sign-in ID.</small>
+            </article>
+          </li>
+        </ol>
+        <div class="callout journey-note"><span class="ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M12 11v5M12 8h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span>Organisations review cases only inside their own workspace. A case ID is a reference, not a password: you still need to sign in to see a case.</span></div>
+        <div class="cta-row" style="margin-top:28px">
+          <button class="btn btn-primary" type="button" data-action="report-now">Report a concern</button>
+          <a class="btn btn-secondary" href="#about">Read about privacy</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT / PRIVACY ===================== -->
+  <section class="screen" id="screen-about">
+    <div class="page">
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="#landing">Home</a> / About &amp; privacy</nav>
+        <header class="page-head">
+          <span class="eyebrow">About &amp; privacy</span>
+          <h1>What SilentEcho protects, and what it cannot promise</h1>
+          <p class="lede">Plain-language answers about how pseudonymous reporting works, what is stored, and where the limits are.</p>
+        </header>
+        <div class="about-grid">
+        <article class="about-card wide hi">
+          <h2><span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 5h16v11H8l-4 4V5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>What SilentEcho is</h2>
+          <p>SilentEcho is a reporting and case-management platform. You can report bullying, harassment, discrimination or another sensitive concern to an organisation without giving your name, email address or phone number.</p><p>Responders in that organisation can ask questions, request evidence and update you, through a single case that you can follow from your dashboard.</p>
+        </article>
+        <article class="about-card ">
+          <h2><span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 5 3.5 9.5 8 11 4.5-1.5 8-6 8-11V5l-8-3z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>How pseudonymous reporting works</h2>
+          <p>You are identified to SilentEcho by a private sign-in ID. Each case has its own Case ID, which refers to the case but does not let anyone sign in.</p><p>Organisation members see the case, its status and your messages. They do not see your sign-in ID or your internal account identifier.</p>
+        </article>
+        <article class="about-card ">
+          <h2><span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="10" rx="2.5" stroke="currentColor" stroke-width="1.7"/><path d="M8 11V8a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>How your private sign-in ID works</h2>
+          <p>The server generates the ID with 256 bits of randomness and shows it once. The database stores only a keyed HMAC-SHA-256 digest, never the ID itself.</p><p>Save it when you are shown it. If you lose it, it cannot be recovered and you lose access to your account and cases. Anyone who has the ID can sign in, so treat it like a password.</p>
+        </article>
+        <article class="about-card wide">
+          <h2><span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 16V4M7 9l5-5 5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" stroke="currentColor" stroke-width="1.7"/></svg></span>How complaint information and evidence are handled</h2>
+          <p>Complaint titles and descriptions, messages, timeline notes, evidence filenames and evidence files are encrypted on the server with AES-256-GCM before they are stored.</p><p>Evidence must be a PDF, JPG, PNG or TXT file of up to 2 MB. The server checks the file contents, not only the name. Files are stored outside the public web directory under random names. Closed cases do not accept new evidence.</p>
+        </article>
+        <article class="about-card ">
+          <h2><span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 5 3.5 9.5 8 11 4.5-1.5 8-6 8-11V5l-8-3z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Privacy protections in place</h2>
+          <ul class="plain-list"><li>Sign-in IDs are stored only as keyed digests.</li><li>Content is encrypted at rest with AES-256-GCM.</li><li>Cases are visible only to the reporter and the owning organisation.</li><li>Sessions expire after 30 minutes of inactivity and end at sign-out.</li><li>Repeated failed sign-ins from one address are slowed down.</li><li>The audit trail records actions, not report text.</li></ul>
+        </article>
+        <article class="about-card caution">
+          <h2><span class="ti"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 8v5M12 17h.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M10.3 3.9 2.6 17.2A2 2 0 0 0 4.3 20h15.4a2 2 0 0 0 1.7-2.8L13.7 3.9a2 2 0 0 0-3.4 0z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>What SilentEcho cannot promise</h2>
+          <ul class="plain-list"><li>It is <strong>not end-to-end encrypted</strong>. The operator controls the encryption key.</li><li>It is <strong>not anonymous</strong>. Your writing, dates, places and files can identify you.</li><li>File metadata, such as author names or camera data, is not removed from uploads.</li><li>Uploads are not scanned for malware.</li><li>A lost sign-in ID cannot be recovered.</li><li>Organisations are not independently verified.</li><li>There is no retention or deletion schedule yet.</li><li>It is not an emergency service and cases are not watched in real time.</li></ul>
+        </article>
+        <article class="about-card wide">
+          <h2><span class="ti"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 8v5M12 17h.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M10.3 3.9 2.6 17.2A2 2 0 0 0 4.3 20h15.4a2 2 0 0 0 1.7-2.8L13.7 3.9a2 2 0 0 0-3.4 0z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>Why pseudonymous is not necessarily anonymous</h2>
+          <p>A pseudonym hides your name, not your story. The organisation still knows what you have reported, and the details of your report may point to you: your writing style, dates, places, the people you mention, and any file you upload.</p><p>Think about what you include before you submit. You can leave out details that are not needed to understand the concern.</p>
+        </article>
+        <article class="about-card wide">
+          <h2><span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="10" rx="2.5" stroke="currentColor" stroke-width="1.7"/><path d="M8 11V8a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>Why SilentEcho is not end-to-end encrypted</h2>
+          <p>With end-to-end encryption, only the people in the conversation hold the keys, so the service itself cannot read the content. SilentEcho does not work that way.</p><p>The server encrypts content with a key that the operator controls. Encryption at rest protects stored data if the database or disk is copied without the key. It does not protect against the operator or against a compromised application.</p>
+        </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESOURCES (public) ===================== -->
+  <section class="screen" id="screen-resources">
+    <div class="page">
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="#landing">Home</a> / Resources</nav>
+        <header class="page-head">
+          <span class="eyebrow">Resources</span>
+          <h1>Support beyond this platform</h1>
+          <p class="lede">SilentEcho can receive and handle a report. It cannot respond to an emergency, and it is not a substitute for people who can help you in person.</p>
+        </header>
+        <div class="help-grid">
+          <article class="helpline-card urgent">
+            <h4><span class="ti"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 8v5M12 17h.01" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M10.3 3.9 2.6 17.2A2 2 0 0 0 4.3 20h15.4a2 2 0 0 0 1.7-2.8L13.7 3.9a2 2 0 0 0-3.4 0z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>If you are in immediate danger</h4>
+            <p>Contact your local emergency number now. Do not wait for a reply to a message on SilentEcho.</p>
+            <ul><li>Move somewhere you feel safer, if you can do so.</li><li>Tell someone nearby what is happening.</li></ul>
+          </article>
+          <article class="helpline-card">
+            <h4><span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 5h16v11H8l-4 4V5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>Talk to someone you trust</h4>
+            <p>A friend, family member, teacher, manager or doctor can help you think through your options before, during or after a report.</p>
+            <ul><li>You do not have to decide everything on your own.</li><li>They can help you prepare for a conversation with the organisation.</li></ul>
+          </article>
+          <article class="helpline-card">
+            <h4><span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="5" y="4" width="14" height="17" rx="1.5" stroke="currentColor" stroke-width="1.7"/><path d="M9 8h2M13 8h2M9 12h2M13 12h2M10 21v-4h4v4" stroke="currentColor" stroke-width="1.7"/></svg></span>Your institution or workplace</h4>
+            <p>Counselling, student welfare, human resources or a designated safeguarding contact may be able to support you and explain the process.</p>
+            <p>Ask what happens after a report, who can see it, and how long it takes.</p>
+          </article>
+          <article class="helpline-card">
+            <h4><span class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 7h10M4 12h7M4 17h12" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="18" cy="7" r="2" fill="currentColor"/><circle cx="15" cy="17" r="2" fill="currentColor"/></svg></span>After you submit a report</h4>
+            <ol>
+              <li>Save your Case ID somewhere private.</li>
+              <li>Check My Cases and your messages regularly.</li>
+              <li>Keep your own private notes: dates, places and what happened.</li>
+              <li>Tell the team if your situation changes or you feel unsafe.</li>
+              <li>Take breaks. Reporting can be stressful.</li>
+            </ol>
+          </article>
+        </div>
+        <div class="disclaimer"><strong>SilentEcho is not an emergency-response service.</strong> It is not monitored in real time, cannot send help, and does not replace the police, medical services or emergency services. How an organisation responds depends on its own policies and staffing.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LOGIN ===================== -->
+  <section class="screen" id="screen-login">
+    <div class="auth-wrap">
+      <div class="auth-card">
+        <div class="auth-brand">
+          <a class="brand" href="#landing">
+            <span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+            SilentEcho
+          </a>
+        </div>
+        <div class="auth-tabs" role="tablist" aria-label="Workspace">
+          <button type="button" class="auth-tab active" role="tab" aria-selected="true" data-workspace="PERSONAL">Personal</button>
+          <button type="button" class="auth-tab" role="tab" aria-selected="false" data-workspace="ORGANISATION">Organisation</button>
+        </div>
+        <h1 id="login-title">Welcome Back</h1>
+        <p class="auth-sub" id="login-sub">Enter the private sign-in ID you saved when you created your account. Your complaints and their progress will be waiting for you.</p>
+        <form id="form-login" novalidate>
+          <div class="auth-field">
+            <label for="login-id">Private sign-in ID</label>
+            <div class="input-row">
+              <input type="password" id="login-id" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="64" placeholder="SE-…" required>
+              <button class="show-toggle" type="button" data-action="toggle-id" data-target="login-id" aria-label="Show sign-in ID">Show</button>
+            </div>
+          </div>
+          <p class="form-error" id="login-error" role="alert" hidden></p>
+          <button class="btn btn-primary auth-btn" type="submit" id="btn-login">Sign in securely</button>
+        </form>
+        <p class="auth-switch" id="login-switch-personal">Don't have an account?
+          <button type="button" id="go-create">Create account</button>
+        </p>
+        <p class="auth-switch" id="login-switch-org" hidden>Representing an organisation?
+          <button type="button" id="go-org-register">Register</button> or
+          <button type="button" id="go-org-join">join a response team</button> ·
+          <button type="button" id="go-org-recover">recover administrator access</button>
+        </p>
+        <button class="auth-back" type="button" data-action="go-landing">← Back to Home</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CREATE PERSONAL ACCOUNT ===================== -->
+  <section class="screen" id="screen-create">
+    <div class="auth-wrap">
+      <div class="auth-card">
+        <div class="auth-brand"><a class="brand" href="#landing"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></span>SilentEcho</a></div>
+        <h1>Create Account</h1>
+        <p class="auth-sub">No name, email address or phone number is required. We will generate a private sign-in ID for you to save.</p>
+        <div class="callout" style="margin-top:0;">
+          <span class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 5 3.5 9.5 8 11 4.5-1.5 8-6 8-11V5l-8-3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+          <span>Our database stores only a keyed digest of your sign-in ID. The readable ID is shown once, when you create the account.</span>
+        </div>
+        <p class="form-error" id="create-error" role="alert" hidden></p>
+        <button class="btn btn-primary auth-btn" type="button" id="btn-generate">Generate my sign-in ID</button>
+        <p class="auth-switch">Already have an account? <button type="button" data-action="go-login">Sign in</button></p>
+        <button class="auth-back" type="button" data-action="go-landing">← Back to Home</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ORGANISATION REGISTER ===================== -->
+  <section class="screen" id="screen-org-register">
+    <div class="auth-wrap">
+      <div class="auth-card">
+        <div class="auth-brand"><a class="brand" href="#landing"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></span>SilentEcho</a></div>
+        <h1>Register Organisation</h1>
+        <p class="auth-sub">Create a workspace for your response team. Each organisation name can be registered only once. If it already exists, sign in with an existing administrator ID or ask the team for an invitation.</p>
+        <form id="form-org-register" novalidate>
+          <div class="auth-field"><label for="org-name">Organisation name</label><input type="text" id="org-name" maxlength="120" required placeholder="For example: Riverside Community Centre"></div>
+          <div class="auth-field"><label for="org-type">Organisation type</label>
+            <select id="org-type" required>
+              <option value="EDUCATIONAL_INSTITUTION">Educational institution</option>
+              <option value="COMPANY">Company</option>
+              <option value="NON_PROFIT">Non-profit</option>
+              <option value="COMMUNITY">Community</option>
+              <option value="OTHER">Other</option>
+            </select></div>
+          <p class="form-error" id="org-register-error" role="alert" hidden></p>
+          <button class="btn btn-primary auth-btn" type="submit">Create organisation account</button>
+        </form>
+        <p class="auth-switch">Have a team invitation code? <button type="button" data-action="go-org-join">Join response team</button></p>
+        <button class="auth-back" type="button" data-action="go-login-org">← Back to sign in</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ORGANISATION JOIN ===================== -->
+  <section class="screen" id="screen-org-join">
+    <div class="auth-wrap">
+      <div class="auth-card">
+        <div class="auth-brand"><a class="brand" href="#landing"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></span>SilentEcho</a></div>
+        <h1>Join Response Team</h1>
+        <p class="auth-sub">Enter the single-use invitation code your organisation administrator shared. You will receive your own private sign-in ID.</p>
+        <form id="form-org-join" novalidate>
+          <div class="auth-field"><label for="org-code">Team invitation code</label><input type="text" id="org-code" maxlength="80" autocomplete="off" autocapitalize="off" spellcheck="false" required placeholder="SEJ-…"></div>
+          <p class="form-error" id="org-join-error" role="alert" hidden></p>
+          <button class="btn btn-primary auth-btn" type="submit">Join response team</button>
+        </form>
+        <button class="auth-back" type="button" data-action="go-login-org">← Back to sign in</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ORGANISATION ADMIN RECOVERY ===================== -->
+  <section class="screen" id="screen-org-recover">
+    <div class="auth-wrap">
+      <div class="auth-card">
+        <div class="auth-brand"><a class="brand" href="#landing"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></span>SilentEcho</a></div>
+        <h1>Recover Organisation Access</h1>
+        <p class="auth-sub">Use the public organisation code and the one-time recovery key saved by an administrator. A new administrator Sign-in ID and replacement recovery key will be created.</p>
+        <form id="form-org-recover" novalidate>
+          <div class="auth-field"><label for="org-recovery-org-code">Organisation code</label><input type="text" id="org-recovery-org-code" maxlength="24" autocomplete="off" autocapitalize="characters" required placeholder="SE-ORG-…"></div>
+          <div class="auth-field"><label for="org-recovery-key">One-time recovery key</label><input type="password" id="org-recovery-key" maxlength="80" autocomplete="off" autocapitalize="off" spellcheck="false" required placeholder="SER-…"></div>
+          <p class="form-error" id="org-recover-error" role="alert" hidden></p>
+          <button class="btn btn-primary auth-btn" type="submit">Recover administrator access</button>
+        </form>
+        <button class="auth-back" type="button" data-action="go-login-org">← Back to organisation sign in</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SAVE YOUR SIGN-IN ID (shown once) ===================== -->
+  <section class="screen" id="screen-reveal">
+    <div class="auth-wrap">
+      <div class="auth-card">
+        <div class="auth-brand"><a class="brand" href="#landing"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></span>SilentEcho</a></div>
+        <h1>Save Your Sign-in ID</h1>
+        <p class="auth-sub">This ID is your secret credential. Keep it somewhere safe and use it to sign in again. Anyone who has it can access your account.</p>
+        <div class="auth-field"><label for="reveal-id">Your private sign-in ID</label><input type="text" id="reveal-id" class="mono-input" readonly></div>
+        <div class="callout" id="reveal-org-code-wrap" hidden style="margin-top:14px;">
+          <div><strong id="reveal-org-name">Organisation reference</strong><p class="muted-copy" style="margin:4px 0 8px;">Stable organisation code. It is not a password and cannot be used to sign in.</p>
+            <input type="text" id="reveal-org-code" class="mono-input" readonly aria-label="Organisation code">
+            <button class="btn btn-secondary" type="button" id="btn-copy-org-code" style="margin-top:8px;">Copy organisation code</button>
+          </div>
+        </div>
+        <div class="callout callout-warn" id="reveal-recovery-wrap" hidden style="margin-top:12px;">
+          <div><strong>One-time administrator recovery key</strong>
+            <p class="muted-copy" style="margin:4px 0 8px;">Save this separately and securely. It can create a replacement administrator account if the Sign-in ID is lost. It is shown only once and is rotated after use.</p>
+            <input type="text" id="reveal-recovery-code" class="mono-input" readonly aria-label="One-time organisation recovery key">
+            <button class="btn btn-secondary" type="button" id="btn-copy-recovery-code" style="margin-top:8px;">Copy recovery key</button>
+          </div>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-secondary" type="button" id="btn-copy-id" style="flex:1">Copy ID</button>
+          <button class="btn btn-secondary" type="button" id="btn-download-id" style="flex:1">Download ID</button>
+        </div>
+        <div class="callout callout-warn">We cannot retrieve your sign-in ID for you. Without your saved ID, you cannot sign back in after your session ends.</div>
+        <label class="check-row" for="reveal-ack"><input type="checkbox" id="reveal-ack"> <span>I have saved my private sign-in ID.</span></label>
+        <button class="btn btn-primary btn-full" type="button" id="btn-reveal-continue" disabled>Continue to my workspace</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== REPORT FLOW ===================== -->
+  <section class="screen" id="screen-report">
+    <div class="container">
+      <div class="app-topbar">
+        <a class="back-link" href="#dashboard/overview">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          Back
+        </a>
+        <a class="how-link" href="#how">How it works
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 16v-4M12 8h.01" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="report-wrap">
+      <h1>Report a Concern</h1>
+      <p class="sub">Share your concern. We are here to listen and help.</p>
+
+      <div class="stepper" id="stepper">
+        <div class="step current" data-step="1"><div class="circle">1</div><div class="label">Your Concern</div></div>
+        <div class="step" data-step="2"><div class="circle">2</div><div class="label">Details</div></div>
+        <div class="step" data-step="3"><div class="circle">3</div><div class="label">Review</div></div>
+      </div>
+
+      <!-- Step 1: organisation, category, urgency -->
+      <div class="report-step" id="report-step-1">
+        <div class="field">
+          <label for="f-org">Organisation</label>
+          <select id="f-org" required><option value="">Loading organisations…</option></select>
+        </div>
+        <div class="field">
+          <label for="f-category">Category</label>
+          <select id="f-category" required></select>
+        </div>
+        <div class="field">
+          <label for="f-urgency">How urgent is it?</label>
+          <select id="f-urgency" required>
+            <option value="LOW">Low</option>
+            <option value="MEDIUM" selected>Medium</option>
+            <option value="HIGH">High</option>
+            <option value="URGENT">Urgent</option>
+          </select>
+        </div>
+        <div class="anonymous-option">
+          <div class="anon-copy">
+            <strong>Pseudonymous report</strong>
+            <small>Your sign-in ID is never shown to the organisation, and the case is not linked to a name or email. Pseudonymous is not anonymous: what you write can still identify you.</small>
+          </div>
+        </div>
+        <div class="callout">
+          <span class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 16v-4M12 8h.01" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+          <span>Your report will get a unique Case ID. You can track it and message the team from your dashboard.</span>
+        </div>
+        <p class="form-error" id="report-error-1" role="alert" hidden></p>
+        <button class="btn btn-primary btn-full" type="button" data-action="report-next-1">Next: Add Details →</button>
+      </div>
+
+      <!-- Step 2: details and evidence -->
+      <div class="report-step" id="report-step-2" hidden>
+        <div class="field">
+          <label for="f-title">A short title</label>
+          <input type="text" id="f-title" maxlength="120" placeholder="For example: Repeated comments in the corridor">
+        </div>
+        <div class="field">
+          <label for="f-desc">Describe your concern</label>
+          <textarea id="f-desc" maxlength="5000" placeholder="Write what happened (be as comfortable as you can)..."></textarea>
+          <div class="char-count"><span id="cc">0</span>/5000</div>
+        </div>
+        <div class="field">
+          <label for="f-date">When did this happen? (optional)</label>
+          <input type="date" id="f-date">
+        </div>
+        <div class="field">
+          <label for="f-loc">Where did this happen? (optional)</label>
+          <input type="text" id="f-loc" placeholder="e.g. Campus dormitory, online, workplace...">
+        </div>
+        <div class="field">
+          <label for="f-response">Would you like a response?</label>
+          <select id="f-response">
+            <option value="yes">Yes, please contact me through SilentEcho</option>
+            <option value="no">No, just wanted this on record</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Add evidence (optional)</label>
+          <label class="dropzone" for="f-file">
+            <div class="up-ic">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 16V4M7 9l5-5 5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 16v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3" stroke="currentColor" stroke-width="1.8"/></svg>
+            </div>
+            <strong id="fileLabel">Click to choose a file</strong>
+            <span>PDF, JPG, PNG or TXT · up to 2 MB</span>
+            <input type="file" id="f-file" accept=".pdf,.jpg,.jpeg,.png,.txt" hidden>
+          </label>
+        </div>
+        <p class="form-error" id="report-error-2" role="alert" hidden></p>
+        <div class="flow-actions">
+          <button class="btn btn-secondary" type="button" style="flex:1" data-action="report-back-1">← Back</button>
+          <button class="btn btn-primary" type="button" style="flex:1" data-action="report-next-2">Next: Review →</button>
+        </div>
+      </div>
+
+      <!-- Step 3: review and consent -->
+      <div class="report-step" id="report-step-3" hidden>
+        <div class="review-card">
+          <div class="review-row"><span class="k">Organisation</span><span class="v" id="r-org">—</span></div>
+          <div class="review-row"><span class="k">Category</span><span class="v" id="r-category">—</span></div>
+          <div class="review-row"><span class="k">Urgency</span><span class="v" id="r-urgency">—</span></div>
+          <div class="review-row"><span class="k">Title</span><span class="v" id="r-title">—</span></div>
+          <div class="review-row"><span class="k">Description</span><span class="v prewrap" id="r-desc">—</span></div>
+          <div class="review-row"><span class="k">When / where</span><span class="v" id="r-when">—</span></div>
+          <div class="review-row"><span class="k">Evidence</span><span class="v" id="r-file">None</span></div>
+        </div>
+        <label class="check-row" for="f-consent"><input type="checkbox" id="f-consent"> <span>I understand this report will be shared with the organisation I chose.</span></label>
+        <label class="check-row" for="f-ai"><input type="checkbox" id="f-ai"> <span>Also request an advisory AI triage suggestion. This sends the report text to Google Gemini. Off by default; a human responder makes every decision.</span></label>
+        <div class="callout">
+          <span class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 5 3.5 9.5 8 11 4.5-1.5 8-6 8-11V5l-8-3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+          <span>Your report is encrypted on the server before it is stored. Responders in the organisation you chose can read it, and SilentEcho's operators hold the encryption key. SilentEcho is not end-to-end encrypted.</span>
+        </div>
+        <p class="form-error" id="report-error-3" role="alert" hidden></p>
+        <div class="flow-actions">
+          <button class="btn btn-secondary" type="button" style="flex:1" data-action="report-back-2">← Back</button>
+          <button class="btn btn-primary" type="button" style="flex:1" id="btn-submit-report">Submit Report</button>
+        </div>
+      </div>
+
+      <!-- Success -->
+      <div class="success-box" id="report-success" hidden>
+        <div class="check">
+          <svg width="34" height="34" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h2>Report Submitted</h2>
+        <p>Thank you for speaking up. A responder will review your case shortly.</p>
+        <div class="case-id-pill mono" id="new-case-id"></div>
+        <div class="btn-row" style="justify-content:center;">
+          <button class="btn btn-secondary" type="button" id="btn-copy-case">Copy case ID</button>
+          <button class="btn btn-primary" type="button" id="btn-go-dashboard">Go to Dashboard</button>
+        </div>
+        <div class="callout" id="report-ai-box" hidden></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PERSONAL DASHBOARD ===================== -->
+  <section class="screen" id="screen-dashboard">
+    <div class="dash">
+    <header class="appbar">
+      <button class="drawer-toggle" type="button" aria-expanded="false" aria-controls="personal-nav" aria-label="Open navigation"><span class="bars"></span></button>
+      <a class="brand" href="#dashboard/overview"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 20a3 3 0 0 0 6 0" stroke="#fff" stroke-width="1.7"/></svg></span><span>SilentEcho</span></a>
+      <span class="appbar-title">Menu</span>
+    </header>
+    <div class="drawer-scrim" aria-hidden="true"></div>
+      <aside class="sidebar" id="personal-nav">
+        <a class="brand" href="#dashboard/overview">
+          <span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+          SilentEcho
+        </a>
+        <nav class="side-nav" aria-label="Dashboard navigation">
+          <a href="#dashboard/overview" class="side-link" data-view="overview"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7"/><rect x="13" y="3" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7"/><rect x="3" y="13" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7"/><rect x="13" y="13" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7"/></svg></span>Dashboard</a>
+          <a href="#dashboard/cases" class="side-link" data-view="cases"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>My Cases</a>
+          <a href="#dashboard/track" class="side-link" data-view="track"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>Track Case</a>
+          <a href="#report" class="side-link" data-view="report"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></span>New Report</a>
+          <a href="#dashboard/messages" class="side-link" data-view="messages"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16v11H8l-4 4V5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span>Messages</a>
+          <a href="#dashboard/resources" class="side-link" data-view="resources"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" stroke="currentColor" stroke-width="1.7"/></svg></span>Resources</a>
+          <a href="#dashboard/settings" class="side-link" data-view="settings"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.7"/><path d="M19 12a7 7 0 0 0-.1-1.2l2-1.6-2-3.4-2.4 1a7 7 0 0 0-2-1.2L14 3h-4l-.5 2.6a7 7 0 0 0-2 1.2l-2.4-1-2 3.4 2 1.6A7 7 0 0 0 5 12c0 .4 0 .8.1 1.2l-2 1.6 2 3.4 2.4-1c.6.5 1.3.9 2 1.2L10 21h4l.5-2.6c.7-.3 1.4-.7 2-1.2l2.4 1 2-3.4-2-1.6c.1-.4.1-.8.1-1.2z" stroke="currentColor" stroke-width="1.4"/></svg></span>Settings</a>
+          <button type="button" class="side-link" data-action="logout"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>Logout</button>
+        </nav>
+      </aside>
+
+      <div class="main">
+        <!-- Overview -->
+        <div class="dash-view" id="dash-overview" hidden>
+          <div class="main-head">
+            <div><h1>Dashboard</h1><p>Welcome back. Your account is pseudonymous.</p></div>
+            <div class="head-actions"><div class="bell" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"><path d="M6 8a6 6 0 0 1 12 0c0 5 2 6 2 6H4s2-1 2-6z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9.5 19a2.5 2.5 0 0 0 5 0" stroke="currentColor" stroke-width="1.6"/></svg></div><div class="avatar" aria-hidden="true">PA</div></div>
+          </div>
+          <div class="stat-grid">
+            <div class="stat-card"><div class="lbl">Total Cases</div><div class="num" id="stat-total">0</div><a href="#dashboard/cases">View all</a></div>
+            <div class="stat-card"><div class="lbl">Under Review</div><div class="num" id="stat-review">0</div><a href="#dashboard/cases">View all</a></div>
+            <div class="stat-card"><div class="lbl">In Progress</div><div class="num" id="stat-progress">0</div><a href="#dashboard/cases">View all</a></div>
+            <div class="stat-card"><div class="lbl">Resolved</div><div class="num" id="stat-resolved">0</div><a href="#dashboard/cases">View all</a></div>
+          </div>
+          <div class="content-grid">
+            <div class="panel">
+              <h3>My Recent Cases</h3>
+              <div class="table-scroll">
+                <table class="cases-table">
+                  <thead><tr><th>Case ID</th><th>Category</th><th>Status</th><th>Last Update</th></tr></thead>
+                  <tbody id="recent-body"><tr><td colspan="4" class="muted-cell">Loading your cases…</td></tr></tbody>
+                </table>
+              </div>
+              <div style="margin-top:16px;"><a class="btn btn-secondary btn-full" href="#dashboard/cases">View All Cases</a></div>
+            </div>
+            <div class="side-col">
+              <div class="callout-card">
+                <h3>You are not alone.</h3>
+                <p>It takes courage to speak up. We are here to support you.</p>
+                <a class="btn" href="#resources">Explore Resources</a>
+                <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 85 C20 65 5 45 15 25 C25 8 45 12 50 28 C55 12 75 8 85 25 C95 45 80 65 50 85z" fill="#fff"/></svg>
+              </div>
+              <div class="helpline-card">
+                <h4>Need immediate help?</h4>
+                <p>If you are in immediate danger, contact your local emergency number. SilentEcho is not monitored in real time.</p>
+                <a class="btn btn-secondary btn-full" href="#dashboard/resources">View Helplines</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- My cases -->
+        <div class="dash-view" id="dash-cases" hidden>
+          <div class="main-head"><div><h1>My Cases</h1><p>Every concern you have filed, newest first.</p></div></div>
+          <div class="panel">
+            <div class="filter-row">
+              <input type="search" id="cases-search" class="text-input" placeholder="Search by title or case ID" aria-label="Search cases">
+              <select id="cases-filter" class="text-input" aria-label="Filter by status">
+                <option value="">All statuses</option>
+                <option value="SUBMITTED">Submitted</option>
+                <option value="UNDER_REVIEW">Under review</option>
+                <option value="IN_PROGRESS">In progress</option>
+                <option value="RESOLVED">Resolved</option>
+                <option value="CLOSED">Closed</option>
+              </select>
+            </div>
+            <div class="table-scroll">
+              <table class="cases-table">
+                <thead><tr><th>Case ID</th><th>Title</th><th>Category</th><th>Status</th><th>Updated</th></tr></thead>
+                <tbody id="cases-body"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Track case -->
+        <div class="dash-view" id="dash-track" hidden>
+          <div class="main-head"><div><h1>Track Your Case</h1><p>Enter a Case ID from My Cases. You must be signed in to view a case.</p></div></div>
+          <div class="panel track-panel">
+            <div class="field">
+              <label for="track-input">Case ID</label>
+              <input type="text" id="track-input" class="text-input mono-input" placeholder="Example: 1f2e3d4c-…" autocomplete="off" spellcheck="false">
+            </div>
+            <p class="form-error" id="track-error" role="alert" hidden></p>
+            <button class="btn btn-primary btn-full" type="button" id="btn-track">Track Case</button>
+          </div>
+          <div class="track-result" id="track-result" hidden>
+            <div class="track-result-head">
+              <div>
+                <div class="case-title" id="tr-title"></div>
+                <div class="case-meta mono" id="tr-id"></div>
+                <div class="case-meta" id="tr-meta"></div>
+              </div>
+              <span class="status-pill" id="tr-status"></span>
+            </div>
+            <h3>Progress</h3>
+            <div class="track-timeline" id="tr-lifecycle"></div>
+            <h3 style="margin-top:22px;">Activity</h3>
+            <div class="track-timeline" id="tr-activity"></div>
+            <h3 style="margin-top:22px;">Evidence</h3>
+            <ul class="file-list" id="tr-evidence"></ul>
+            <div class="upload-box">
+              <label class="dropzone" for="tr-file">
+                <div class="up-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 16V4M7 9l5-5 5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <strong id="tr-file-label">Add evidence to this case</strong>
+                <span>PDF, JPG, PNG or TXT · up to 2 MB</span>
+                <input type="file" id="tr-file" accept=".pdf,.jpg,.jpeg,.png,.txt" hidden>
+              </label>
+              <p class="form-error" id="tr-evidence-error" role="alert" hidden></p>
+              <button class="btn btn-secondary btn-full" type="button" id="btn-upload-evidence">Upload evidence</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Messages -->
+        <div class="dash-view" id="dash-messages" hidden>
+          <div class="main-head"><div><h1>Messages</h1><p>Chat securely with the response team for each case</p></div></div>
+          <div class="messages-layout">
+            <div class="msg-list">
+              <input type="search" id="msg-search" class="msg-search text-input" placeholder="Search cases..." aria-label="Search cases">
+              <div id="msg-list-items"></div>
+            </div>
+            <div class="chat-panel">
+              <div class="chat-head">
+                <div class="who">
+                  <div class="avatar" aria-hidden="true">SE</div>
+                  <div><div class="chat-title" id="chat-title">Select a case</div><div class="status" id="chat-status"></div></div>
+                </div>
+                <a class="link-small" id="chat-track" href="#dashboard/track">Track case</a>
+              </div>
+              <div class="chat-body" id="chat-body">
+                <div class="secure-banner">🔒 This is a secure conversation. Do not share personal information.</div>
+              </div>
+              <form class="chat-input" id="chat-form" autocomplete="off">
+                <input type="text" id="chat-in" maxlength="2000" placeholder="Type a message..." aria-label="Message">
+                <button class="send-btn" type="submit" id="btn-send" aria-label="Send message">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 12l18-8-8 18-2-8-8-2z" fill="#fff"/></svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resources -->
+        <div class="dash-view" id="dash-resources" hidden>
+          <div class="main-head"><div><h1>Resources</h1><p>Support beyond this platform</p></div></div>
+          <div class="helpline-card" style="margin-bottom:16px;"><h4>Need immediate help?</h4><p>If someone is in immediate danger, contact your local emergency number now. SilentEcho cannot respond to emergencies.</p></div>
+          <div class="helpline-card"><h4>Institution and workplace support</h4><p>Your institution's counselling, welfare or human resources team can help you understand the options available to you.</p></div>
+        </div>
+
+        <!-- Settings -->
+        <div class="dash-view" id="dash-settings" hidden>
+          <div class="main-head"><div><h1>Settings</h1><p>Your account and privacy</p></div></div>
+          <div class="panel" style="margin-bottom:16px;">
+            <h3>Your account</h3>
+            <p class="muted-copy">You signed in with a private sign-in ID. We do not store your name, email or phone number. Only you can see your cases.</p>
+            <p class="muted-copy"><strong>Keep your sign-in ID safe.</strong> If you lose it, we cannot recover it, and you will lose access to your account and cases.</p>
+          </div>
+          <div class="panel"><h3>Session</h3><p class="muted-copy">Your session expires after 30 minutes of inactivity.</p><button class="btn btn-secondary" type="button" data-action="logout">End session</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ORGANISATION DASHBOARD ===================== -->
+  <section class="screen" id="screen-org">
+    <div class="dash">
+    <header class="appbar">
+      <button class="drawer-toggle" type="button" aria-expanded="false" aria-controls="org-nav" aria-label="Open navigation"><span class="bars"></span></button>
+      <a class="brand" href="#org/overview"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 20a3 3 0 0 0 6 0" stroke="#fff" stroke-width="1.7"/></svg></span><span>SilentEcho</span></a>
+      <span class="appbar-title">Menu</span>
+    </header>
+    <div class="drawer-scrim" aria-hidden="true"></div>
+      <aside class="sidebar" id="org-nav">
+        <a class="brand" href="#org/overview">
+          <span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+          SilentEcho
+        </a>
+        <nav class="side-nav" aria-label="Organisation navigation">
+          <a href="#org/overview" class="side-link" data-view="overview"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7"/><rect x="13" y="3" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7"/><rect x="3" y="13" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7"/><rect x="13" y="13" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7"/></svg></span>Overview</a>
+          <a href="#org/inbox" class="side-link" data-view="inbox"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M4 13l3-8h10l3 8v6H4v-6z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M4 13h5l1 2h4l1-2h5" stroke="currentColor" stroke-width="1.7"/></svg></span>Case Inbox</a>
+          <a href="#org/team" class="side-link" data-view="team"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3.5" stroke="currentColor" stroke-width="1.7"/><path d="M2.5 20c0-3.5 3-6 6.5-6s6.5 2.5 6.5 6" stroke="currentColor" stroke-width="1.7"/><circle cx="17" cy="9" r="2.6" stroke="currentColor" stroke-width="1.7"/></svg></span>Response Team</a>
+          <button type="button" class="side-link" data-action="logout"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span>Logout</button>
+        </nav>
+      </aside>
+
+      <div class="main">
+        <!-- Overview -->
+        <div class="dash-view" id="org-overview" hidden>
+          <div class="main-head">
+            <div><h1>Response Dashboard</h1><p id="org-subtitle">Reporter identities stay hidden.</p></div>
+            <div class="head-actions"><div class="avatar" aria-hidden="true">OR</div></div>
+          </div>
+          <div class="stat-grid">
+            <div class="stat-card"><div class="lbl">Total Cases</div><div class="num" id="o-stat-total">0</div><a href="#org/inbox">Open inbox</a></div>
+            <div class="stat-card"><div class="lbl">Awaiting Review</div><div class="num" id="o-stat-review">0</div><a href="#org/inbox">Open inbox</a></div>
+            <div class="stat-card"><div class="lbl">In Progress</div><div class="num" id="o-stat-progress">0</div><a href="#org/inbox">Open inbox</a></div>
+            <div class="stat-card"><div class="lbl">Resolved or Closed</div><div class="num" id="o-stat-resolved">0</div><a href="#org/inbox">Open inbox</a></div>
+          </div>
+          <div class="content-grid">
+            <div class="panel">
+              <h3>Recent Cases</h3>
+              <div class="table-scroll">
+                <table class="cases-table">
+                  <thead><tr><th>Case ID</th><th>Title</th><th>Status</th><th>Updated</th></tr></thead>
+                  <tbody id="o-recent-body"><tr><td colspan="4" class="muted-cell">Loading cases…</td></tr></tbody>
+                </table>
+              </div>
+            </div>
+            <div class="side-col">
+              <div class="panel" id="o-orgs-card"><h3>My Organisations</h3><ul class="plain-list" id="o-orgs"></ul></div>
+              <div class="callout-card" id="invite-card" hidden>
+                <h3>Invite a responder</h3>
+                <p>Codes are single-use and expire after 7 days. Share one only with a trusted team member.</p>
+                <div class="field-inline">
+                  <select id="invite-org" class="text-input" aria-label="Organisation for invitation"></select>
+                  <button class="btn" type="button" id="btn-invite">Generate code</button>
+                </div>
+                <div class="invite-result" id="invite-result" hidden>
+                  <p class="invite-label">Invitation code (shown once)</p>
+                  <div class="mono invite-code" id="invite-code"></div>
+                  <p class="invite-label" id="invite-expiry"></p>
+                  <button class="btn btn-sm" type="button" id="btn-copy-invite">Copy code</button>
+                </div>
+                <hr>
+                <h3>Administrator recovery</h3>
+                <p>Generate a one-time recovery key and store it offline. It can restore administrator access if the Sign-in ID is lost.</p>
+                <button class="btn btn-secondary" type="button" id="btn-generate-recovery">Generate recovery key</button>
+                <div class="invite-result" id="org-recovery-result" hidden>
+                  <p class="invite-label">Recovery key (shown once)</p>
+                  <div class="mono invite-code" id="org-recovery-code-value"></div>
+                  <button class="btn btn-sm" type="button" id="btn-copy-dashboard-recovery">Copy recovery key</button>
+                </div>
+                <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M50 85 C20 65 5 45 15 25 C25 8 45 12 50 28 C55 12 75 8 85 25 C95 45 80 65 50 85z" fill="#fff"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Inbox -->
+        <div class="dash-view" id="org-inbox" hidden>
+          <div class="main-head"><div><h1>Case Inbox</h1><p>Cases submitted to your organisations</p></div></div>
+          <div class="panel">
+            <div class="filter-row">
+              <input type="search" id="inbox-search" class="text-input" placeholder="Search by title or case ID" aria-label="Search cases">
+              <select id="inbox-filter" class="text-input" aria-label="Filter by status">
+                <option value="">All statuses</option>
+                <option value="SUBMITTED">Submitted</option>
+                <option value="UNDER_REVIEW">Under review</option>
+                <option value="IN_PROGRESS">In progress</option>
+                <option value="RESOLVED">Resolved</option>
+                <option value="CLOSED">Closed</option>
+              </select>
+            </div>
+            <div class="table-scroll">
+              <table class="cases-table">
+                <thead><tr><th>Case ID</th><th>Title</th><th>Category</th><th>Urgency</th><th>Status</th><th>Updated</th></tr></thead>
+                <tbody id="inbox-body"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case management -->
+        <div class="dash-view" id="org-case" hidden>
+          <a class="back-link" href="#org/inbox">← Case Inbox</a>
+          <div class="main-head">
+            <div>
+              <h1 class="case-title" id="oc-title">Case</h1>
+              <p class="mono" id="oc-id"></p>
+            </div>
+            <span class="status-pill" id="oc-status-pill"></span>
+          </div>
+          <div class="content-grid">
+            <div class="stack-col">
+              <div class="panel"><h3>Reported concern</h3><p class="case-meta" id="oc-meta"></p><p class="prewrap" id="oc-desc"></p></div>
+              <div class="panel">
+                <h3>Conversation with the reporter</h3>
+                <div class="chat-panel chat-embedded">
+                  <div class="chat-body" id="oc-chat"><div class="secure-banner">🔒 Replies reach the reporter's private account. Your name is not shown.</div></div>
+                  <form class="chat-input" id="oc-chat-form" autocomplete="off">
+                    <input type="text" id="oc-reply" maxlength="2000" placeholder="Reply to the reporter..." aria-label="Reply">
+                    <button class="send-btn" type="submit" aria-label="Send reply">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 12l18-8-8 18-2-8-8-2z" fill="#fff"/></svg>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="stack-col">
+              <div class="panel">
+                <h3>Manage case</h3>
+                <div class="field"><label for="oc-status">Status</label><select id="oc-status"></select></div>
+                <div class="field"><label for="oc-urgency">Urgency</label><select id="oc-urgency"></select></div>
+                <div class="field"><label for="oc-category">Category</label><select id="oc-category"></select></div>
+                <div class="field"><label for="oc-note">Action taken or next steps (visible to the reporter)</label><textarea id="oc-note" maxlength="2000" rows="4"></textarea></div>
+                <p class="form-error" id="oc-error" role="alert" hidden></p>
+                <button class="btn btn-primary btn-full" type="button" id="btn-oc-save">Save update</button>
+              </div>
+              <div class="panel"><h3>Timeline</h3><div class="track-timeline" id="oc-timeline"></div></div>
+              <div class="panel"><h3>Evidence</h3><ul class="file-list" id="oc-evidence"></ul></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team -->
+        <div class="dash-view" id="org-team" hidden>
+          <div class="main-head"><div><h1>Response Team</h1><p>Members of your organisations</p></div></div>
+          <div class="panel"><ul class="plain-list" id="team-list"></ul></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+<footer class="site-footer" data-public-chrome>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="#landing"><span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9v4c0 1-.5 2-1.5 3h17c-1-1-1.5-2-1.5-3V9c0-4-3-7-7-7z" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 20a3 3 0 0 0 6 0" stroke="#fff" stroke-width="1.7"/></svg></span><span>SilentEcho</span></a>
+        <p>Confidential, pseudonymous reporting for people who need to be heard. Not an emergency-response service.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#about">About &amp; privacy</a></li>
+          <li><a href="#resources">Resources</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Account</h4>
+        <ul>
+          <li><a href="#login">Login</a></li>
+          <li><a href="#create">Create personal account</a></li>
+          <li><a href="#org-register">Register organisation</a></li>
+          <li><a href="#org-join">Join a response team</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>&copy; <span id="year">2026</span> SilentEcho</span>
+      <span>In danger? Contact your local emergency number.</span>
+    </div>
+  </div>
+</footer>
+
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script src="js/app.js"></script>
+<script src="js/ui.js"></script>
+</body>
+</html>
